@@ -25,14 +25,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<h1>Colorlib Regisztráció</h1>
 		<div class="main-agileinfo">
 			<div class="agileits-top">
-				<form action="#" method="get">
+				<form action="#">
 					<input class="text error input-tarsition" id="username" type="text" name="Username" placeholder="Felhasználó név" required="">
 					<div class="error-msg" id="username-error"></div>
+					
 					<input class="text margin-1 input-tarsition" id="email" type="email" name="email" placeholder="Email" required="">
 					<div class="error-msg" id="email-error"></div>
-					<input class="text margin-1 input-tarsition-error" id="pwd" type="password" name="password" placeholder="Jelszó" required="">
-					<input class="text margin-1 input-tarsition" id="pwd-again" type="password" name="" placeholder="Jelszó újra" required="">
 					
+					<input class="text margin-1 input-tarsition" id="re-email" type="email" name="email" placeholder="Email újra" required="">
+					<div class="error-msg" id="re-email-error"></div>
+					
+					<input class="text margin-1 input-tarsition-error" id="pwd" type="password" name="password" placeholder="Jelszó" required="">
+					<div class="error-msg" id="pwd-error"></div>
+
+					<input class="text margin-1 input-tarsition" id="re-pwd" type="password" name="" placeholder="Jelszó újra" required="">
+					<div class="error-msg" id="re-pwd-error"></div>
+
 					<div class="wthree-text">
 						<label class="anim">
 							<input type="checkbox" id="term-of-use" class="checkbox" required="">

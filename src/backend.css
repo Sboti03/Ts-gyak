@@ -12,7 +12,8 @@
 }
 
 .error-msg {
-    background-color: hsla(4, 90%, 58%, 0.766);
+    background-color: hsla(176, 100%, 81%, 0.766);
     padding: 0.5em;
-    color: white;
+    color: darkgreen;
+    font-weight: bold;
 }
